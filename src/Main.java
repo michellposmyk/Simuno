@@ -7,11 +7,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main (String[] args) {
+
+        Persona osoba = new Persona();
+        osoba.
+
+
         Scanner scanner = new Scanner(System.in);
         LocalDateTime now = LocalDateTime.now();
         DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("HH:mm:ss");
 
         System.out.println("Witaj w moim krolestwie.Twoja godzina to  " + now.format(timeFormatter));
+
 
         int hour = now.getHour();
         if (hour < 12) {
